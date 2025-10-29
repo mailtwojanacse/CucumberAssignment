@@ -20,7 +20,12 @@ A comprehensive Selenium + Cucumber BDD automation framework for testing SauceDe
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mailtwojanacse/CucumberAssignment.git
 
 ## Configuration
 Update src/test/resources/config/config.properties:
+
+## Tags to run 
+
+@Smoke
+@Regression 
