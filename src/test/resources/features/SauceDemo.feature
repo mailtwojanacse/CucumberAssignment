@@ -37,6 +37,7 @@ Feature: End-to-End User Journey on SauceDemo
     Given the user has products in the cart
     When the user proceeds to checkout without filling required fields
     Then an error message should be displayed
+    When the user logs out
     When the user accesses the cart without logging in
     Then the user should be redirected to the login page
 

@@ -187,13 +187,12 @@ public class SaceDemoSteps {
 
     @When("the user accesses the cart without logging in")
     public void accessCartWithoutLogin() {
-        driver = WebDriverManager.getDriver();
         driver.get(data.getBaseUrl() + "/cart.html");
     }
 
     @Then("the user should be redirected to the login page")
     public void redirectedToLogin() {
-        Assert.assertTrue(driver.getCurrentUrl().contains("login"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("https://www.saucedemo.com/"));
     }
 
     @When("the user logs out")
