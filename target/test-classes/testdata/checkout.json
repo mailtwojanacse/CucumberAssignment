@@ -1,0 +1,17 @@
+{
+  "validCheckout": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "postalCode": "12345"
+    }
+  ],
+  "invalidCheckout": [
+    {
+      "firstName": "",
+      "lastName": "Doe",
+      "postalCode": "12345",
+      "expectedError": "First Name is required"
+    }
+  ]
+}
